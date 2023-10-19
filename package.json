@@ -1,0 +1,18 @@
+{
+	"name": "template-worker",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy index.js",
+		"dev": "wrangler dev index.js --local",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"vitest": "^0.31.0",
+		"wrangler": "^3.13.1"
+	},
+	"dependencies": {
+		"cloudflare": "^2.9.1",
+		"mimetext": "^3.0.16"
+	}
+}

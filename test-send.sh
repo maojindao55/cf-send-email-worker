@@ -1,0 +1,1 @@
+curl -d"sender_email=admin@formtome.com&sender_name=Admin-FormTome&recipient_email=binbinzhaili@qq.com&subject='Hello Guy!'&msg_data='My first email sent!'" "http://mywork.binbinzhaili.workers.dev/"

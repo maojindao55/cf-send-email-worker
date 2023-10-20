@@ -3,5 +3,7 @@
 *-lock.*
 *.lock
 *.log
+.editorconfig
+.prettierrc
 
 /dist
